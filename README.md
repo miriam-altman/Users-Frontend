@@ -37,3 +37,4 @@ Before you start, you need to have the following installed on your system:
 3. Run the project
    ```bash
    npm start
+This will start the app on http://localhost:3000 in your browser.
