@@ -1,0 +1,195 @@
+body {
+  padding-right: 150px;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "ploni-regular-aaa";
+}
+
+.background-img {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.home {
+  background-image: url('./pictures/add.jpg');
+  height: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.userList {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 15px;
+  background-color: #1a1a1a !important;
+  color: #fff !important;
+}
+
+.cardContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.personIcon {
+  color: #945810;
+  margin-right: 10px;
+}
+
+.userData {
+  font-weight: bold;
+}
+
+.iconButton {
+  color: #945810 !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.css-f84ov1-MuiTypography-root {
+  color: white;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.noData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: #333;
+  color: #945810;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.noDataIcon {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.paginationWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination .MuiPaginationItem-root {
+  color: #945810;
+}
+
+.pagination .Mui-selected {
+  background-color: #945810 !important;
+  color: #1a1a1a !important;
+}
+
+.createBotton {
+  background-color: #257043 !important;
+  color: white !important;
+}
+
+.createUserWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.dialogTitle {
+  color: #fff;
+  background-color: #5c9070;
+}
+
+.dialogPaper {
+  padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.errorBox {
+  color: red;
+  margin-top: 10px;
+}
+
+.cancelButton {
+  color: #5c9070 !important;
+}
+
+.submitButton {
+  background-color: #5c9070 !important;
+  color: #1a1a1a !important;
+  font-weight: bold !important;
+}
+
+.MuiAlert-root {
+  background-color: #333;
+  color: #5c9070;
+}
+
+.MuiTextField-root {
+  margin-bottom: 15px;
+}
+
+.headerControls {
+  display: flex;
+  gap: 22px;
+}
+
+.searchInput {
+  background-color: white !important;
+  height: 36px !important;
+  width: 220px !important;
+  border-radius: 8px;
+
+  .MuiOutlinedInput-root {
+    background-color: white;
+    height: 100%;
+    border: 2px solid #5c9070;
+
+  }
+
+  label {
+    margin-top: -9px !important;
+  }
+
+  .MuiOutlinedInput-root.Mui-focused fieldset {
+    border: 0px;
+  }
+
+  .MuiInputLabel-root.Mui-focused {
+    color: white !important;
+  }
+}
