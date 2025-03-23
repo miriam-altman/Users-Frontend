@@ -34,6 +34,6 @@ Before you start, you need to have the following installed on your system:
 2. Install the packages
  ```bash
    npm install
-2. Run the project
+3. Run the project
  ```bash
    npm start
