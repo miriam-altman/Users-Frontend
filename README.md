@@ -32,8 +32,8 @@ Before you start, you need to have the following installed on your system:
    ```bash
    git clone https://github.com/miriam-altman/Users-Frontend.git
 2. Install the packages
- ```bash
+   ```bash
    npm install
 3. Run the project
- ```bash
+   ```bash
    npm start
